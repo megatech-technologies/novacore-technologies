@@ -1,0 +1,129 @@
+/*==================================================
+FLOATING SHAPES
+==================================================*/
+
+@keyframes float{
+
+    0%{
+
+        transform:translateY(0) translateX(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-35px) translateX(25px);
+
+    }
+
+    100%{
+
+        transform:translateY(0) translateX(0);
+
+    }
+
+}
+
+/* dash board*/
+
+@keyframes floatDashboard{
+
+    0%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-18px);
+
+    }
+
+    100%{
+
+        transform:translateY(0);
+
+    }
+
+}
+
+
+/*scroll key*/
+
+@keyframes scrollMove{
+
+    0%{
+
+        top:10px;
+
+        opacity:1;
+
+    }
+
+    100%{
+
+        top:38px;
+
+        opacity:0;
+
+    }
+
+}
+
+/* hero fade in animation*/
+
+.hero-content{
+
+    animation:slideLeft .9s ease;
+
+}
+
+.hero-image{
+
+    animation:slideRight .9s ease;
+
+}
+
+/*append*/
+
+@keyframes slideLeft{
+
+    from{
+
+        opacity:0;
+
+        transform:translateX(-70px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:none;
+
+    }
+
+}
+
+@keyframes slideRight{
+
+    from{
+
+        opacity:0;
+
+        transform:translateX(70px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:none;
+
+    }
+
+}
+

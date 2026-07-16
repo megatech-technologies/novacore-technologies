@@ -1,0 +1,87 @@
+/*==================================================
+NOVACORE DESIGN SYSTEM
+==================================================*/
+
+:root{
+
+    /*=====================
+    COLORS
+    =====================*/
+
+    --primary:#5B21B6;
+    --primary-dark:#4C1D95;
+    --secondary:#06B6D4;
+    --accent:#F59E0B;
+
+    --dark:#0F172A;
+    --dark-light:#1E293B;
+
+    --white:#FFFFFF;
+    --light:#F8FAFC;
+    --gray:#64748B;
+    --border:#E2E8F0;
+
+    --success:#16A34A;
+    --danger:#DC2626;
+
+    /*=====================
+    TYPOGRAPHY
+    =====================*/
+
+    --heading-font:"Poppins",sans-serif;
+    --body-font:"Inter",sans-serif;
+
+    /*=====================
+    FONT SIZES
+    =====================*/
+
+    --fs-hero:4rem;
+    --fs-h1:3rem;
+    --fs-h2:2.4rem;
+    --fs-h3:1.7rem;
+    --fs-body:1rem;
+    --fs-small:.95rem;
+
+    /*=====================
+    FONT WEIGHT
+    =====================*/
+
+    --fw-regular:400;
+    --fw-medium:500;
+    --fw-semibold:600;
+    --fw-bold:700;
+    --fw-extra:800;
+
+    /*=====================
+    LAYOUT
+    =====================*/
+
+    --container:1320px;
+
+    --radius-sm:8px;
+    --radius-md:14px;
+    --radius-lg:20px;
+    --radius-xl:30px;
+
+    --section-padding:110px;
+
+    /*=====================
+    SHADOWS
+    =====================*/
+
+    --shadow-sm:
+    0 4px 12px rgba(15,23,42,.08);
+
+    --shadow-md:
+    0 12px 30px rgba(15,23,42,.10);
+
+    --shadow-lg:
+    0 25px 60px rgba(15,23,42,.15);
+
+    /*=====================
+    TRANSITIONS
+    =====================*/
+
+    --transition:.35s ease;
+
+}
