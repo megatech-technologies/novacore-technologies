@@ -1,86 +1,68 @@
 /*==================================================
-NOVACORE DESIGN SYSTEM
+CSS VARIABLES
 ==================================================*/
 
 :root{
 
-    /*=====================
-    COLORS
-    =====================*/
+    /*======== Brand Colors ========*/
 
-    --primary:#5B21B6;
-    --primary-dark:#4C1D95;
-    --secondary:#06B6D4;
-    --accent:#F59E0B;
+    --primary:#2E7D32;
 
-    --dark:#0F172A;
-    --dark-light:#1E293B;
+    --primary-dark:#1B5E20;
+
+    --secondary:#43A047;
+
+    --accent:#F9A825;
+
+    --accent-light:#FFD54F;
+
+    --dark:#1F2937;
+
+    --dark-light:#374151;
+
+    --text:#4B5563;
 
     --white:#FFFFFF;
-    --light:#F8FAFC;
-    --gray:#64748B;
-    --border:#E2E8F0;
 
-    --success:#16A34A;
-    --danger:#DC2626;
+    --light:#F8FAF5;
 
-    /*=====================
-    TYPOGRAPHY
-    =====================*/
+    --gray:#E5E7EB;
 
-    --heading-font:"Poppins",sans-serif;
-    --body-font:"Inter",sans-serif;
+    --border:#DDE6DD;
 
-    /*=====================
-    FONT SIZES
-    =====================*/
+    /*======== Fonts ========*/
 
-    --fs-hero:4rem;
-    --fs-h1:3rem;
-    --fs-h2:2.4rem;
-    --fs-h3:1.7rem;
-    --fs-body:1rem;
-    --fs-small:.95rem;
+    --heading:'Poppins',sans-serif;
 
-    /*=====================
-    FONT WEIGHT
-    =====================*/
+    --body:'Inter',sans-serif;
 
-    --fw-regular:400;
-    --fw-medium:500;
-    --fw-semibold:600;
-    --fw-bold:700;
-    --fw-extra:800;
+    /*======== Width ========*/
 
-    /*=====================
-    LAYOUT
-    =====================*/
+    --container:1280px;
 
-    --container:1320px;
+    /*======== Radius ========*/
 
-    --radius-sm:8px;
-    --radius-md:14px;
-    --radius-lg:20px;
-    --radius-xl:30px;
+    --radius-xs:8px;
 
-    --section-padding:110px;
+    --radius-sm:12px;
 
-    /*=====================
-    SHADOWS
-    =====================*/
+    --radius-md:20px;
 
-    --shadow-sm:
-    0 4px 12px rgba(15,23,42,.08);
+    --radius-lg:30px;
 
-    --shadow-md:
-    0 12px 30px rgba(15,23,42,.10);
+    --radius-xl:50px;
 
-    --shadow-lg:
-    0 25px 60px rgba(15,23,42,.15);
+    --radius-round:999px;
 
-    /*=====================
-    TRANSITIONS
-    =====================*/
+    /*======== Shadow ========*/
+
+    --shadow-sm:0 10px 25px rgba(0,0,0,.05);
+
+    --shadow-md:0 20px 40px rgba(0,0,0,.08);
+
+    --shadow-lg:0 30px 70px rgba(0,0,0,.12);
+
+    /*======== Transition ========*/
 
     --transition:.35s ease;
 

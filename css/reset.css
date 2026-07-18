@@ -1,8 +1,11 @@
 /*==================================================
-RESET
+RESET CSS
+Fruitful Dees Ventures Resource
 ==================================================*/
 
-*{
+*,
+*::before,
+*::after{
     margin:0;
     padding:0;
     box-sizing:border-box;
@@ -10,74 +13,60 @@ RESET
 
 html{
     scroll-behavior:smooth;
+    -webkit-text-size-adjust:100%;
 }
 
 body{
-
-    font-family:var(--body-font);
-
-    background:var(--light);
-
-    color:var(--dark);
-
-    overflow-x:hidden;
-
-    line-height:1.7;
-
+    min-height:100vh;
 }
 
-img{
-
+img,
+picture,
+video,
+canvas,
+svg{
     display:block;
-
     max-width:100%;
-
 }
 
-a{
-
-    text-decoration:none;
-
-    color:inherit;
-
-}
-
-ul{
-
-    list-style:none;
-
-}
-
-button,
 input,
-textarea{
-
+button,
+textarea,
+select{
     font:inherit;
-
 }
 
 button{
-
-    cursor:pointer;
-
     border:none;
-
     background:none;
-
+    cursor:pointer;
 }
 
-section{
-
-    padding:var(--section-padding) 20px;
-
+a{
+    text-decoration:none;
+    color:inherit;
 }
 
-.container{
+ul,
+ol{
+    list-style:none;
+}
 
-    width:min(100%,var(--container));
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
 
-    margin:auto;
+textarea{
+    resize:vertical;
+}
 
-    padding:0 20px;
+:focus-visible{
+    outline:3px solid #2E7D32;
+    outline-offset:3px;
+}
 
+::selection{
+    background:#2E7D32;
+    color:#fff;
 }

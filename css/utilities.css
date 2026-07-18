@@ -1,0 +1,57 @@
+/*==================================================
+UTILITY CLASSES
+==================================================*/
+
+.text-center{
+
+    text-align:center;
+
+}
+
+.text-white{
+
+    color:#fff;
+
+}
+
+.mb-20{
+
+    margin-bottom:20px;
+
+}
+
+.mb-30{
+
+    margin-bottom:30px;
+
+}
+
+.mb-40{
+
+    margin-bottom:40px;
+
+}
+
+.mb-50{
+
+    margin-bottom:50px;
+
+}
+
+.mt-40{
+
+    margin-top:40px;
+
+}
+
+.hidden{
+
+    display:none;
+
+}
+
+.w-100{
+
+    width:100%;
+
+}
