@@ -1,0 +1,861 @@
+/*==================================================
+992px
+==================================================*/
+
+@media (max-width:992px){
+
+.header .container{
+
+    height:80px;
+
+}
+
+.logo span{
+
+    font-size:1.2rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+.hero-container{
+
+    grid-template-columns:1fr;
+
+    text-align:center;
+
+}
+
+.hero-content{
+
+    margin:auto;
+
+}
+
+.hero-buttons{
+
+    justify-content:center;
+
+}
+
+.hero-card{
+
+    max-width:600px;
+
+    margin:auto;
+
+}
+
+
+
+
+
+
+
+
+.why-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+
+
+
+
+
+
+
+
+.about-grid{
+
+    grid-template-columns:1fr;
+
+    gap:70px;
+
+}
+
+.about-content{
+
+    text-align:center;
+
+}
+
+.about-features{
+
+    justify-content:center;
+
+}
+
+.image-large{
+
+    width:100%;
+
+}
+
+.image-small{
+
+    width:45%;
+
+}
+
+
+
+
+
+
+
+.services-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+
+
+
+
+
+
+.products-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+
+
+
+
+
+
+.training-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.training-content{
+
+    text-align:center;
+
+}
+
+.training-list{
+
+    grid-template-columns:1fr 1fr;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.impact-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+
+
+
+
+
+
+
+.testimonial-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+
+
+
+
+.faq-wrapper{
+
+    max-width:100%;
+
+}
+
+.faq-question{
+
+    padding:22px 24px;
+
+    font-size:1.02rem;
+
+}
+
+.faq-answer p{
+
+    padding:0 24px 22px;
+
+}
+
+
+
+
+
+
+
+.cta{
+
+    padding:100px 0;
+
+}
+
+
+
+
+
+
+
+
+
+.footer-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:40px;
+
+}
+
+}
+
+/*==================================================
+768px
+==================================================*/
+
+@media (max-width:768px){
+
+
+
+.nav-btn{
+
+    display:none;
+
+}
+
+.menu-toggle{
+
+    display:block;
+
+}
+
+.logo span{
+
+    color:#fff;
+
+}
+
+.header.scrolled .logo span{
+
+    color:var(--dark);
+
+}
+
+
+
+
+
+
+
+.hero{
+
+    min-height:auto;
+
+    padding-bottom:70px;
+
+}
+
+.hero-container{
+
+    gap:50px;
+
+}
+
+.hero h1{
+
+    font-size:2.7rem;
+
+}
+
+
+.hero-card{
+
+    padding:32px;
+
+}
+
+
+
+
+
+
+
+.why-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.why-card{
+
+    padding:35px 28px;
+
+}
+
+
+
+
+
+
+
+.about-images{
+
+    min-height:520px;
+
+}
+
+.image-large{
+
+    height:420px;
+
+}
+
+.image-small{
+
+    height:220px;
+
+}
+
+
+.about-features{
+
+    grid-template-columns:1fr;
+
+}
+
+.about-badge{
+
+    left:10px;
+
+}
+
+
+
+
+
+
+
+
+
+.services-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.service-card{
+
+    padding:35px 30px;
+
+}
+
+
+
+
+
+
+
+.products-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.product-image{
+
+    height:240px;
+
+}
+
+
+
+
+
+
+
+
+
+.training-list{
+
+    grid-template-columns:1fr;
+
+}
+
+.training-image img{
+
+    height:450px;
+
+}
+
+.training-badge{
+
+    left:20px;
+
+    bottom:20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.impact-grid{
+
+grid-template-columns:1fr;
+
+}
+
+
+
+
+
+
+.testimonial-grid{
+
+grid-template-columns:1fr;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.faq-question{
+
+    padding:20px;
+
+    font-size:1rem;
+
+}
+
+.faq-answer p{
+
+    padding:0 20px 20px;
+
+}
+
+
+
+
+
+
+
+
+
+.cta{
+
+    padding:80px 0;
+
+}
+
+.cta-buttons{
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.footer{
+
+    text-align:center;
+
+}
+
+.footer-logo{
+
+    justify-content:center;
+
+}
+
+.footer-social{
+
+    justify-content:center;
+
+}
+
+.footer-contact li{
+
+    justify-content:center;
+
+}
+
+
+}
+
+/*==================================================
+480px
+==================================================*/
+
+@media (max-width:480px){
+
+.header .container{
+
+    height:74px;
+
+}
+
+.logo img{
+
+    width:48px;
+
+    height:48px;
+
+}
+
+.logo span{
+
+    font-size:1rem;
+
+}
+
+
+
+
+
+
+
+
+.hero{
+
+    background-attachment:scroll;
+
+}
+
+.hero-tag{
+
+    font-size:.82rem;
+
+    padding:10px 16px;
+
+}
+
+.hero h1{
+
+    font-size:2.2rem;
+
+}
+
+
+.hero-buttons{
+
+    flex-direction:column;
+
+}
+
+.hero-buttons .btn{
+
+    width:100%;
+
+}
+
+.hero-card{
+
+    padding:24px;
+
+}
+
+
+.stat-box{
+
+    padding:22px;
+
+}
+
+
+
+
+
+
+.why-icon{
+
+    width:75px;
+
+    height:75px;
+
+}
+
+.why-icon span{
+
+    font-size:34px;
+
+}
+
+
+
+
+
+
+.about-images{
+
+    min-height:auto;
+
+}
+
+.image-large{
+
+    width:100%;
+
+    height:300px;
+
+}
+
+.image-small{
+
+    position:relative;
+
+    width:75%;
+
+    height:180px;
+
+    margin:-50px auto 0;
+
+    right:auto;
+
+    bottom:auto;
+
+}
+
+.about-badge{
+
+    position:relative;
+
+    left:auto;
+
+    top:auto;
+
+    margin:25px auto 0;
+
+    width:fit-content;
+
+}
+
+
+
+
+
+
+
+
+.service-icon{
+
+    width:75px;
+
+    height:75px;
+
+}
+
+.service-icon span{
+
+    font-size:34px;
+
+}
+
+
+
+
+
+
+
+.product-content{
+
+    padding:24px;
+
+}
+
+.product-image{
+
+    height:220px;
+
+}
+
+
+
+
+
+
+
+
+
+.training-image img{
+
+    height:320px;
+
+}
+
+.training-badge{
+
+    position:relative;
+
+    left:auto;
+
+    bottom:auto;
+
+    margin-top:20px;
+
+}
+
+
+
+
+
+
+
+
+
+.impact-card{
+
+padding:25px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.testimonial-card{
+
+padding:28px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.faq-question{
+
+    padding:18px;
+
+    font-size:.95rem;
+
+    text-align:left;
+
+    gap:12px;
+
+}
+
+.faq-question span{
+
+    flex-shrink:0;
+
+}
+
+
+.faq-answer p{
+
+    padding:0 18px 18px;
+
+    font-size:.95rem;
+
+    line-height:1.7;
+
+}
+
+
+
+
+
+
+
+.cta{
+
+    padding:70px 0;
+
+}
+
+.cta-buttons .btn{
+
+    width:100%;
+
+    max-width:300px;
+
+}
+
+
+
+
+
+
+
+
+
+.footer{
+
+    padding:60px 0 25px;
+
+}
+
+
+}
