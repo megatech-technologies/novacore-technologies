@@ -1,0 +1,47 @@
+/*==================================================
+CALL TO ACTION
+==================================================*/
+
+@media(max-width:992px){
+
+.cta{
+
+    padding:100px 20px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.cta{
+
+    padding:90px 20px;
+
+}
+
+.cta-buttons{
+
+    flex-direction:column;
+
+}
+
+}
+
+@media(max-width:480px){
+
+.cta{
+
+    padding:80px 15px;
+
+}
+
+.cta-buttons .btn{
+
+    width:100%;
+
+    max-width:300px;
+
+}
+
+}

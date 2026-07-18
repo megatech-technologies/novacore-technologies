@@ -1,0 +1,69 @@
+/*==================================================
+CSS VARIABLES
+==================================================*/
+
+:root{
+
+    /*======== Brand Colors ========*/
+
+    --primary:#2E7D32;
+
+    --primary-dark:#1B5E20;
+
+    --secondary:#43A047;
+
+    --accent:#F9A825;
+
+    --accent-light:#FFD54F;
+
+    --dark:#1F2937;
+
+    --dark-light:#374151;
+
+    --text:#4B5563;
+
+    --white:#FFFFFF;
+
+    --light:#F8FAF5;
+
+    --gray:#E5E7EB;
+
+    --border:#DDE6DD;
+
+    /*======== Fonts ========*/
+
+    --heading:'Poppins',sans-serif;
+
+    --body:'Inter',sans-serif;
+
+    /*======== Width ========*/
+
+    --container:1280px;
+
+    /*======== Radius ========*/
+
+    --radius-xs:8px;
+
+    --radius-sm:12px;
+
+    --radius-md:20px;
+
+    --radius-lg:30px;
+
+    --radius-xl:50px;
+
+    --radius-round:999px;
+
+    /*======== Shadow ========*/
+
+    --shadow-sm:0 10px 25px rgba(0,0,0,.05);
+
+    --shadow-md:0 20px 40px rgba(0,0,0,.08);
+
+    --shadow-lg:0 30px 70px rgba(0,0,0,.12);
+
+    /*======== Transition ========*/
+
+    --transition:.35s ease;
+
+}

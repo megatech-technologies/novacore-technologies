@@ -1,0 +1,119 @@
+/*==================================================
+BUTTONS
+==================================================*/
+
+.btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:10px;
+
+    padding:16px 34px;
+
+    border-radius:999px;
+
+    font-weight:600;
+
+    transition:var(--transition);
+
+}
+
+.btn-primary{
+
+    background:var(--primary);
+
+    color:#fff;
+
+}
+
+.btn-primary:hover{
+
+    background:var(--primary-dark);
+
+    transform:translateY(-4px);
+
+   box-shadow:0 18px 40px rgba(46,125,50,.30);
+
+}
+
+.btn-outline{
+
+    border:2px solid #fff;
+
+    color:#fff;
+
+}
+
+.btn-outline:hover{
+
+    background:#fff;
+
+    color:var(--primary);
+
+}
+
+/*==================================================
+SECTION TITLE
+==================================================*/
+
+.section-title{
+
+    max-width:700px;
+
+    margin:auto auto 60px;
+
+    text-align:center;
+
+}
+
+.section-title span{
+
+    display:inline-block;
+
+    margin-bottom:18px;
+
+    color:var(--primary);
+
+    font-weight:700;
+
+    text-transform:uppercase;
+
+    letter-spacing:2px;
+
+}
+
+.section-title p{
+
+    margin-top:20px;
+
+}
+
+/*==================================================
+CARDS
+==================================================*/
+
+.card{
+
+    background:#fff;
+
+    border-radius:24px;
+
+    padding:35px;
+
+    box-shadow:var(--shadow-sm);
+
+    transition:var(--transition);
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:var(--shadow-lg);
+
+}

@@ -1,0 +1,90 @@
+/*==================================================
+CALL TO ACTION
+==================================================*/
+
+.cta{
+
+    position:relative;
+
+    padding:120px 20px;
+
+    background:
+    linear-gradient(rgba(15,23,42,.78),
+    rgba(15,23,42,.78)),
+    url("../images/cta/cta-bg.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    color:#fff;
+
+    text-align:center;
+
+}
+
+.cta-content{
+
+    max-width:760px;
+
+    margin:auto;
+
+}
+
+.cta .section-subtitle{
+
+    color:var(--accent);
+
+}
+
+.cta h2{
+
+    color:#fff;
+
+    margin:20px 0;
+
+}
+
+.cta p{
+
+    color:rgba(255,255,255,.9);
+
+    max-width:650px;
+
+    margin:0 auto 35px;
+
+}
+
+.cta-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.btn-light{
+
+    background:transparent;
+
+    border:2px solid #fff;
+
+    color:#fff;
+
+}
+
+.btn-light:hover{
+
+    background:#fff;
+
+    color:var(--primary);
+
+}
